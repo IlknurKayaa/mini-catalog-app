@@ -1,17 +1,74 @@
-# minicatalog
+# Mini Catalog App 📱
 
-A new Flutter project.
+## 📌 Proje Adı
 
-## Getting Started
+Mini Catalog App
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📖 Kısa Açıklama
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Bu proje, Flutter kullanılarak geliştirilmiş basit bir mini katalog uygulamasıdır.
+Uygulama içerisinde ürünler listelenmekte, ürün detayları görüntülenebilmekte ve kullanıcılar ürünleri sepete ekleyebilmektedir.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ayrıca uygulama:
+
+* **Online (API)** ve
+* **Offline (local JSON)**
+
+olarak çalışacak şekilde tasarlanmıştır.
+
+---
+
+## ⚙️ Kullanılan Flutter Sürümü
+
+Flutter sürümünü öğrenmek için:
+
+flutter --version
+
+Flutter 3.41.7
+
+---
+
+## 🚀 Özellikler
+
+* Ürün listeleme (GridView)
+* Ürün detay sayfası
+* Sepet sistemi
+* Ödeme ekranı (form + doğrulama)
+* Online / Offline veri kullanımı
+* Route arguments ile sayfa geçişleri
+* Asset yönetimi (JSON ve görseller)
+
+---
+
+## ▶️ Çalıştırma Adımları
+
+1. Projeyi klonlayın:
+   git clone https://github.com/IlknurKayaa/mini-catalog-app.git
+
+2. Proje klasörüne girin:
+   cd minicatalog
+
+3. Gerekli paketleri yükleyin:
+   flutter pub get
+
+4. Uygulamayı çalıştırın:
+   flutter run
+
+---
+
+## 📁 Proje Klasör Yapısı
+
+lib/
+┣ models/
+┣ services/
+┣ views/
+┣ routes/
+┗ main.dart
+
+---
+
+## 📌 Not
+
+Bu proje eğitim amaçlı geliştirilmiştir ve Flutter'da temel kavramları (navigation, state yönetimi, asset kullanımı vb.) göstermektedir.
